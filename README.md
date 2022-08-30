@@ -21,4 +21,5 @@ Caso decida rodar utilizando um ambiente virtual e já tenha o [Python3.8](https
 
 - `python3.8 - venv venv`
 - `pip install -r requirements.txt`
+- `cp .env.sample .env` e configurar as variáveis necessárias
 - `python3 run.py`
