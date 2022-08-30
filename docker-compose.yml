@@ -1,0 +1,15 @@
+version: "3.3"
+
+services:
+  app:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    container_name: training-sheet-app
+    restart: unless-stopped
+    working_dir: /app
+    volumes:
+      - ./:/app
+    ports:
+      - 5000:5000
+    command: python3 run.py

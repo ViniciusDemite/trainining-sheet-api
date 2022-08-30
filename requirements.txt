@@ -1,0 +1,6 @@
+# Esse arquivo é utilizado para informar as versões dos pacotes a serem instalados
+# Comando: pip install -r requirements.txt
+
+
+# Framework
+Flask==2.2.2
