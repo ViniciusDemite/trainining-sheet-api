@@ -10,6 +10,11 @@ O projeto tem como propósito criar uma ficha de treinamento digital, sendo usad
 
 ## Como executar
 
+Antes de executar o aplicativo por qualquer um dos métodos é necessário fazer alguns passos de configuração antes, sendo eles:
+
+- Criar um arquivo **.env** com base no **.env.sample** utilizando o comando `cp .env .env.sample`
+  - Após a criação do arquivo verifique as configurações necessárias dentro do arquivo
+
 ### Docker
 
 Tendo o [Docker](https://docs.docker.com/get-docker/) e o [Docker Compos](https://docs.docker.com/compose/install/compose-desktop/) e instalados é possível utilizar o container para rodar a aplicação.
@@ -21,5 +26,4 @@ Caso decida rodar utilizando um ambiente virtual e já tenha o [Python3.8](https
 
 - `python3.8 - venv venv`
 - `pip install -r requirements.txt`
-- `cp .env.sample .env` e configurar as variáveis necessárias
 - `python3 run.py`
