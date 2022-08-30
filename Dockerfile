@@ -5,8 +5,8 @@ RUN apt-get update -y && \
 
 WORKDIR /app
 
-RUN pip install -r requirements.txt
-
 COPY . .
+
+RUN pip install -r requirements.txt
 
 EXPOSE 5000

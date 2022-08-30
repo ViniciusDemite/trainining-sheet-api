@@ -4,3 +4,6 @@
 
 # Framework
 Flask==2.2.2
+
+# Pacotes
+python-dotenv==0.20.0
