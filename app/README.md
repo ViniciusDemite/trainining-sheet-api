@@ -11,3 +11,4 @@ Esse diretório é responsável pela lógica do aplicativo.
 
 - [Flask](https://flask.palletsprojects.com/en/2.2.x/)
 - [Python dotenv](https://pypi.org/project/python-dotenv/)
+- [Flask SQLAlchemy](https://flask-sqlalchemy.palletsprojects.com/en/2.x/)
