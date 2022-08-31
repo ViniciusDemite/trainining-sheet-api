@@ -1,10 +1,6 @@
 import json
-from app import app
+from app import app, env
 from flask import make_response, jsonify
-from dotenv import dotenv_values
-
-
-env = dotenv_values('.env')
 
 @app.route(f'{env["BASE_URL"]}')
 def index():
