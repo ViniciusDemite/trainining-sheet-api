@@ -1,6 +1,6 @@
-import json
 from app import app, env
 from flask import make_response, jsonify
+
 
 @app.route(f'{env["BASE_URL"]}')
 def index():
